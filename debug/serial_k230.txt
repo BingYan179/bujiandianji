@@ -1,0 +1,9 @@
+# K230 serial notes
+
+K230 protocol varies by firmware. Typical settings used in many projects:
+- Baud: 115200 (or 9600 depending on your device)
+- 8N1
+
+Example simple command frame (ASCII) used in other projects: \"GOTO 45.0\n\"
+
+If you need binary protocol to talk to a K230 module, provide specific frame format and I'll add a parser.
